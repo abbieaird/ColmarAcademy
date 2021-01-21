@@ -108,11 +108,12 @@ nav a:hover {
     width: 335px;
     letter-spacing: 0.099em;
     border-radius: 5px;
+    border: none;
 }
 
 .banner .learn button:hover {
     background-color: gray;
-    color: black;
+    color: white;
 }
 /* banner */
 
@@ -269,9 +270,6 @@ nav a:hover {
 /* courses */
 
 /* thesis */
-.thesis {
-    border-bottom: 1px solid lightgray;
-}
 .thesis h1 {
     text-align: center;
     margin: 32px;
@@ -344,4 +342,56 @@ nav a:hover {
 .thesis .right .content p {
     font-weight: 300;
     padding-top: 8px;
+}
+/* thesis */
+
+
+/* footer */
+/*
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.copyright {
+
+}
+
+footer a {
+    color: gray;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+*/
+
+footer {
+    border-top: 1px solid lightgray;
+    font-size: 15px;
+    padding-top: 13px;
+    height: 64px;
+}
+
+footer .copyright {
+    padding-left: 24px;
+}
+
+footer .terms {
+    position: relative;
+    float: right;
+}
+
+.terms a {
+    color: gray;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.terms a:hover {
+    color: black;
 }
