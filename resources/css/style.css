@@ -62,7 +62,7 @@ nav a:hover {
 
 /* banner */
 .banner {
-    background-color: lightgray;
+    background-color: rgb(243, 243, 243);
     padding: 32px 24px;
     display: flex;
     padding-top: 100px;
@@ -208,3 +208,68 @@ nav a:hover {
 /* intro right */
 /* intro */
 
+
+
+/* courses */
+.coursesContainer {
+    background-color:  rgb(243, 243, 243);
+}
+
+.coursesContainer h1 {
+    text-align: center;
+    padding: 32px;
+    font-size: 35px;
+}
+
+.courses {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    padding-bottom: 40px;
+}
+
+.course {
+    background-color: white;
+    width: 30%;
+    margin: 16px;
+    border-radius: 5px;
+}
+
+.course img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.course .content {
+    padding: 16px;
+}
+
+.course .content h2 {
+    padding: 10px 0 16px 0;
+    font-weight: 600;
+}
+
+.course .content .word {
+    padding: 0 0 10px 0;
+    font-weight: 300;
+}
+
+.course .content p {
+    font-weight: 300;
+}
+
+.course:hover {
+    background-color: lightgray;
+}
+/* courses */
+
+/* thesis */
+.thesis h1 {
+    text-align: center;
+    margin: 32px;
+}
