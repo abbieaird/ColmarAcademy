@@ -22,7 +22,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid lightgray;
 }
 
 .logo {
@@ -269,7 +269,79 @@ nav a:hover {
 /* courses */
 
 /* thesis */
+.thesis {
+    border-bottom: 1px solid lightgray;
+}
 .thesis h1 {
     text-align: center;
     margin: 32px;
+    font-size: 35px;
+}
+
+.thesisFlex {
+    display: flex;
+}
+
+/* thesis left */
+.thesis .left {
+    width: 60%;
+    margin: 24px;
+}
+
+.thesis .left video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thesis .left h2 {
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.thesis .left p {
+    font-weight: 300;
+}
+/* thesis left */
+
+
+/* thesis right */
+
+.thesis .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.thesis .right .single {
+    display: flex;
+    border-radius: 5px;
+}
+
+.thesis .right .single:hover {
+    background-color: lightgray;
+}
+
+.thesis img {
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.thesis .right .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thesis .right .content h2 {
+    font-weight: 600;
+    li
+}
+
+.thesis .right .content p {
+    font-weight: 300;
+    padding-top: 8px;
 }
