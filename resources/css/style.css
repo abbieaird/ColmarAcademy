@@ -11,7 +11,6 @@ body {
 
 
 /* header */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -57,7 +56,6 @@ header nav a {
 nav a:hover {
     color: black;
 }
-
 /* header */
 
 
@@ -102,6 +100,7 @@ nav a:hover {
     background-color: rgb(90, 87, 87);
     color: white;
     font-weight: 300;
+    font-style: normal;
     font-size: 20px;
     margin-top: 30px;
     padding-top: 8px;
@@ -115,3 +114,97 @@ nav a:hover {
     background-color: gray;
     color: black;
 }
+/* banner */
+
+
+
+/* main */
+
+/* intro */
+/* intro left */
+.intro {
+    display: flex;
+}
+
+.intro .left {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.intro .left img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.intro .left .content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.intro .left h1 {
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+
+.intro .left .quote {
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.intro .left .author {
+    font-size: 13px;
+    margin-bottom: 32px;
+}
+/* intro left */
+
+
+/* intro right */
+.intro .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.intro .right .single {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.intro .right .single:hover {
+    background-color: lightgray;
+}
+
+.intro .right img {
+    width: 40%;
+    height: auto;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.intro .right .single .content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro .right .single .content p {
+    padding-top: 8px;
+    padding-bottom: 6px;
+    font-weight: 300;
+}
+
+.intro .right .single .content a {
+    color: lightskyblue;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.intro .right .single .content a:hover {
+    color: lightseagreen;
+}
+/* intro right */
+/* intro */
+
